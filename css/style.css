@@ -1,0 +1,80 @@
+.header_img {
+    width: 300px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+header li {
+    list-style: none;
+    margin-right: 60px;
+}
+
+main {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.left {
+    width: 70%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left h2 {
+    border-left: 3px solid black;
+    border-bottom: 1px solid gray;
+    padding-left: 10px
+}
+
+.box {
+    /* width: 100%; */
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*画像とテキストをまとめて処理*/
+.box_pic {
+    width: 22%;
+    /* height: auto; */
+}
+
+.box p {
+    margin: 0;
+    text-align: center;
+}
+
+.right {
+    width: 30%;
+    padding-left: 18px;
+}
+
+.right h3 {
+    margin-top: 32px;
+    /* padding-top: 11px; */
+    border-bottom: 1px solid gray;
+}
+
+.right p {
+    padding-left: 15px;
+    margin-top: -1em;
+}
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
